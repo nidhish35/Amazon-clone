@@ -241,6 +241,8 @@
     background-color: #222f3d;
     color: white;
     height: 300px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .panel-two ul{
@@ -262,4 +264,45 @@ li{
     text-decoration: none;
     color: #dddddd;
     font-size: 0.85rem;
+}
+
+/* panel 3 */
+.panel-three{
+    background-color: #222f3d;
+    height: 70px;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-image{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+/* Panel 4 */
+
+.panel-four{
+    background-color: #0F1111;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.pages a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+}
+
+.copyright{
+    padding-top: 5px;
 }
